@@ -5,7 +5,7 @@ class MyLink extends Component {
     render() { 
         return ( <div>
             <a className={this.props.active ? isModuleCssImam.active : isModuleCssImam.link} href="/">
-                 <i class={`fa fa-${this.props.icon}`}></i>
+                 <i className={`fa fa-${this.props.icon}`}></i>
             {this.props.children} 
             </a>
            

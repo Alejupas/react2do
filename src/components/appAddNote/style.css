@@ -1,0 +1,32 @@
+.add-note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-note {
+  /* border: 1px solid #000; */
+  padding: 0.8em;
+  border-radius: 5px;
+  min-width: 300px;
+  box-shadow: 3px 4px 15px 0px #b3b3b3;
+}
+
+.input {
+  border: none;
+  display: block;
+  height: 1.5em;
+  margin-bottom: 1em;
+}
+
+.input:focus-visible {
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+
+.link-like {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  float: right;
+}

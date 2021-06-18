@@ -1,4 +1,8 @@
 /* Global */
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -31,6 +35,7 @@ a {
   max-width: 80%;
   margin: 0 auto;
   display: grid;
+  gap: 1.5em;
   grid-template-areas:
     'header header header header header'
     'aside addnote addnote addnote addnote'
