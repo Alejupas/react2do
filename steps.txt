@@ -1,0 +1,16 @@
+1. create-react-app your-project-name
+1.1 cleanup starter code:
+[leave app.css, app.jsx, index.js, reportWebVItals, gitignore packages json]
+app.js to app.jsx
+delete app.jsx content, imrc & cc, name App
+
+2. components folder in src> create appNavbar, appAside, appAddNote, appNoteList
+import to app.jsx, mirror in page.
+
+3. uzdeti visiems components frame and with css grid or flex mirror as it is in google keep
+
+4. Navbar jsx + css, to look similar, logo link, input field
+npm i font-awesome@4.7 (index.js import 'font-awesome/css/font-awesome.css')
+
+5. aside viduje kiekviena nuoroda yra _Link komponentas, kuris gauna per props kokia ikona parodyti, kur turetu vesti ir tarp pradzios ir pabaigos tabu koks turetu buti
+nuorodos tekstas
