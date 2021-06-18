@@ -1,6 +1,21 @@
-div {
-  border: 1px solid #000;
+/* Global */
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.aside,
+.notelist,
+.addnote {
+  text-align: center;
+}
+
+/* navbar */
 
 .navbar {
   grid-area: header;
@@ -19,6 +34,8 @@ div {
 }
 
 .App {
+  max-width: 80%;
+  margin: 0 auto;
   display: grid;
   grid-template-areas:
     'header header header header header'
