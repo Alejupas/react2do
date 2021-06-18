@@ -24,3 +24,6 @@ yra patalpinami {_id, title, body, isPinned}
 6.3 pasidarom sutrauktos busenos ivesties lauka kuris buna kai mes neivedinejam
 naujo note.
 
+7. Notelist
+7.1 sukurti korteles komponentas
+7.2 sugeneruoti korteles is notes saraso 

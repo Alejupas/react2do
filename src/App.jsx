@@ -17,7 +17,7 @@ class App extends Component {
 
     const notesCopy = [...this.state.notes, newNoteObj]
 
-    this.setState({notes: notesCopy, noteId: this.state.noteId +1})
+    this.setState({notes: notesCopy, noteId: this.state.noteId + 1})
   };
 
   createNewNote(newNote){
@@ -31,7 +31,7 @@ class App extends Component {
         <AppNavbar />
         <AppAside />
         <AppAddNote onNewNote={this.handleNewNote} />
-        <AppNoteList />
+        <AppNoteList notes={this.state.notes}/>
       </div>
     );
   }
