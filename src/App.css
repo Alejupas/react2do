@@ -1,12 +1,8 @@
 div {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
 
 /* navbar */
-.fa-fighter-jet {
-  height: 80px;
-  color: red;
-}
 
 .navbar {
   grid-area: header;
