@@ -4,7 +4,8 @@ class AppNavbar extends Component {
     state = {  }
     render() { 
         return ( <header className='navbar'>
-            <h2>Navbar component</h2>
+            <i class="fa fa-fighter-jet" to='/'></i>
+            <input type="text" />
         </header> ); 
     }
 }

@@ -5,6 +5,7 @@ class AppAside extends Component {
     render() { 
         return ( <div className='aside'>
             <h2>Aside</h2>
+            {/* <_Link to="/" icon='fa fa-pencil'>Home</_Link> */}
         </div> );
     }
 }
