@@ -14,3 +14,13 @@ npm i font-awesome@4.7 (index.js import 'font-awesome/css/font-awesome.css')
 
 5. aside viduje kiekviena nuoroda yra _Link komponentas, kuris gauna per props kokia ikona parodyti, kur turetu vesti ir tarp pradzios ir pabaigos tabu koks turetu buti
 nuorodos tekstas
+
+6. AddNote componentas. turi 2 stadijas isplesta ir sutraukta
+6.1 pasidarom pilna stadija kuri yra forma arba tiesiog 2 input ir mygtukas close
+
+6.2 formoje suvesti duomenys sukuria objekta App.jsx elemento state ir ten
+yra patalpinami {_id, title, body, isPinned}
+
+6.3 pasidarom sutrauktos busenos ivesties lauka kuris buna kai mes neivedinejam
+naujo note.
+

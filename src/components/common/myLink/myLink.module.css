@@ -1,6 +1,6 @@
 .link {
   display: block;
-  padding: 0.5em 0;
+  padding: 0.5em 1em;
 }
 
 .link i,
@@ -9,7 +9,8 @@
 }
 
 .active {
-  background-color: #caae89;
+  background-color: #e0b438d0;
+  padding: 0.5em 1em;
   border-top-right-radius: 1em;
   border-bottom-right-radius: 1em;
 }

@@ -8,6 +8,8 @@ class AppAside extends Component {
             <div>
                 <MyLink active to="/" icon='home'> Home</MyLink>
                 <MyLink to="/reminders" icon='bell'> Reminders</MyLink>
+                <MyLink to="/archive" icon='plane'> Archive</MyLink>
+                <MyLink to="/trash" icon='trash'> Trash</MyLink>
             </div>
         </div> );
     }
