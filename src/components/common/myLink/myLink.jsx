@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 class MyLink extends Component {
     state = {  }
     render() { 
-        return (  );
+        return ( <div>
+            link link
+        </div> );
     }
 }
  
