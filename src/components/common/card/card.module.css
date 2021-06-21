@@ -1,0 +1,17 @@
+.card {
+  margin: 2rem auto;
+  min-width: 300px;
+  display: block;
+  padding: 1rem;
+  border: 1px solid rgb(177, 169, 169);
+  border-radius: 5px;
+}
+
+.raisedCard {
+  margin: 2rem auto;
+  min-width: 300px;
+  display: block;
+  padding: 1rem;
+  border: 1px solid rgb(177, 169, 169);
+  border-radius: 5px;
+}

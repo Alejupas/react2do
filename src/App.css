@@ -23,11 +23,11 @@ a {
   grid-area: aside;
 }
 
-.addnote {
+.add-note {
   grid-area: addnote;
 }
 
-.notelist {
+.note-list {
   grid-area: notelist;
 }
 
